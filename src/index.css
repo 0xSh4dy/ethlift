@@ -5,9 +5,37 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(to right,#b92b27,#1565c0);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.accountBox{
+  top: 20vw;
+  right: 10px;
+  background: linear-gradient(to right,#8EC5FC,#E0C3FC);
+  padding: 5px;
+}
+
+.detailBox{
+  padding: 10px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  background: linear-gradient(to right,#85FFBD,#FFFB7D);
+  color: blue;
+  width: fit-content;
+}
+
+.transferBox{
+  position: relative;
+  top: 30vh;
+  left: 40vw;
+  background: linear-gradient(to right,#8EC5FC,#E0C3FC);
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
