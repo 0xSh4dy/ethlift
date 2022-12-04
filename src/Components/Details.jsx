@@ -8,7 +8,7 @@ const web3 = new Web3(RPC_URL);
 
 function DetailBox(props) {
   return (
-    <div className="text-left pl-2 detailBox">
+    <div className="text-left pl-2 detailBox rounded-2xl">
       <p>My account: {props.acc.account}</p>
       <p>Available balance: {props.balance}</p>
     </div>

@@ -36,6 +36,11 @@ code {
   background: linear-gradient(to right,#8EC5FC,#E0C3FC);
 }
 
+.wrapperLoading{
+  position: relative;
+  left:5vw;
+  top:4.7vh;
+}
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
